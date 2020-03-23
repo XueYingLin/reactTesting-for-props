@@ -1,12 +1,12 @@
 import React from 'react';
-
+import ListItems from './components/ListItems';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Testing</h1>
-    </div>
+    <ul>
+      <ListItems abc={123} def={'hello'}/>
+    </ul>
   );
 }
 
